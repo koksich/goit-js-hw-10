@@ -49,7 +49,7 @@ function cardMarkup(data) {
     }" width="40" height="40">${country.name.official}</h1>
       <p>Capital: ${country.capital}</p>
       <p>Population: ${country.population}</p>
-      <p>Languages: ${Object.values(country.languages)}</p>`;
+      <p>Language: ${Object.values(country.languages)}</p>`;
   });
 
   countryCardEl.innerHTML = murkup;
